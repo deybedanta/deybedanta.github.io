@@ -1,0 +1,117 @@
+#title {
+    -webkit-user-select: none;    
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    z-index: 998;
+    display: flex;
+    margin: 0 0 50vh 20%;
+    height: 46px;
+
+    -webkit-box-shadow: 0px 0px 31px 21px #151515; 
+    box-shadow: 0px 0px 31px 21px #151515;
+    background-color: #151515;
+}
+#title-col {
+    width: 100%;
+    height: 60vh;
+    background-color: #151515;
+}
+
+#title h1 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+@keyframes cursor-flicker {
+    0% {opacity: 80%;}
+    20% {opacity: 0%;}
+    50% {opacity: 0%;}
+    70% {opacity: 80%;}
+}
+@keyframes content-in {
+    0% {opacity: 0%; transform: skew(-2deg, -2deg);}
+    100% {opacity: 100%; transform: skew(0, 0);}
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#title div {
+    opacity: 80%;
+    height: auto;
+    margin-left: 2px;
+    width: 2px;
+    background-color: white;
+    animation-name: cursor-flicker;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#folder {
+    z-index: 995;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+
+    width: 800px;
+    height: 300px;
+    position: fixed;
+    bottom: -100px;left: 50%;
+    transform: translateX(-50%);
+
+    background-color: #252525;
+    -webkit-clip-path: polygon(60% 20%, 80% 0, 100% 0, 100% 100%, 0 100%, 0 20%);
+    clip-path: polygon(60% 20%, 80% 0, 100% 0, 100% 100%, 0 100%, 0 20%);
+
+}
+#folder-bg {
+    z-index: -995;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+
+    
+
+    width: 800px;
+    height: 353px;
+    position: fixed;
+    bottom: -100px;left: 50%;
+    transform: translateX(-50%);
+
+    background-color: #202020;
+    -webkit-clip-path: polygon(29% 0, 53% 23%, 100% 23%, 100% 100%, 0 100%, 0 0);
+    clip-path: polygon(20% 0, 40% 15%, 100% 15%, 100% 100%, 0 100%, 0 0);
+}
+
+#top {
+    z-index: 995;
+    position: fixed;
+    top: 0; left:0;
+    width: 100%;
+    height: 0px;
+
+    background-color: #151515;
+    -webkit-box-shadow: 0px 11px 42px 37px #151515; 
+    box-shadow: 0px 11px 42px 37px #151515;
+}
+
+
+.content-box {
+    /*animation-name: content-in;
+    animation-duration: 0.5s;
+    animation-timing-function:ease-out;
+    animation-fill-mode:forwards;*/
+
+    background-color: #eeeeee;
+    color: black;
+    width: 600px;
+    height: 400px;
+    margin: 30px 0 0 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    padding: 30px;
+}
+.content-box:last-of-type {
+    margin-bottom: 200px;
+}
