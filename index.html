@@ -1,35 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head prefix="og: http://ogp.me/ns# video: http://ogp.me/ns/video#">
-    <script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="darkreader" content="NO-DARKREADER-PLUGIN" />
+    <script src="./nodarkreader.min.js"></script>
 
-        const params = new URLSearchParams(document.location.search);
-        const text = params.get("text");
+    <link rel="stylesheet" href="Styles/all.css">
+    <link rel="stylesheet" href="Styles/index.css">
+    <link rel="icon" type="image/x-icon" href="Media/logo.png">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-        document.head.insertAdjacentHTML("afterbegin",`<meta property="og:title" content="${text}">`)
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="Scripts/indexScrollAnimations.js"></script>
 
-    </script>
-
-<meta charset="utf-8">
-<title>lol</title>
-<meta property="og:type" content="video.movie">
-<link rel="canonical" href="https://chan.sankakucomplex.com/post/show/31184813">
-<meta property="og:url" content="https://chan.sankakucomplex.com/post/show/31184813">
-<meta property="og:image" content="https://media.discordapp.net/attachments/462589936064004097/1003987251392413746/emoji.png">
-<meta property="og:image:secure_url" content="https://media.discordapp.net/attachments/462589936064004097/1003987251392413746/emoji.png">
-<meta property="og:image:width" content="512">
-<meta property="og:image:height" content="512">
-<meta property="og:image:type" content="image/png">
-<meta property="og:video" content="https://v.sankakucomplex.com/data/f6/c4/f6c4c5766e61e03e4ff01512e1ffe561.mp4?e=1660597715&m=KlAb4m7ibnesGpsqFWU0KA&expires=1660597715&token=wIkzWhF0ph8nbOAzg_M-OFLXSw8EBZZ0PoznD3CjV_M">
-<meta property="og:video:secure_url" content="https://v.sankakucomplex.com/data/f6/c4/f6c4c5766e61e03e4ff01512e1ffe561.mp4?e=1660597715&m=KlAb4m7ibnesGpsqFWU0KA&expires=1660597715&token=wIkzWhF0ph8nbOAzg_M-OFLXSw8EBZZ0PoznD3CjV_M">
-<meta property="og:video:type" content="video/mp4">
-<meta property="og:video:width" content="2560">
-<meta property="og:video:height" content="1440">
-<meta property="video:release_date" content="1895-12-28">
-<meta property="video:director" content="http://examples.opengraphprotocol.us/profile.html">
-<meta property="video:duration" content="21">
+    <title>Bedanta Dey • Home</title>
 </head>
 <body>
-<p>A <a href="http://ogp.me/#type_video.movie">video.movie</a> object.</p>
+    
+    <div id='cookies-popup'>
+        <p>This website doesn't use cookies. Enjoy!</p><button type='button' onclick="$('#cookies-popup').css({'display': 'none'})">Okay</button>
+    </div>
+
+    <section id='title-col'></section>
+    <section id="title">
+        <h1>Bedanta</h1><div onclick="location.href='https://video.twimg.com/ext_tw_video/1551237337346097160/pu/vid/720x720/c4O3nT-mdQSIpAgP.mp4?tag=12';"></div>
+    </section>
+
+    <div id='top'></div>
+
+    <div id='folder'></div>
+    <div id='folder-bg'></div>
+    <section class="content-box">
+        <p>Hello! This is a test website.</p><br><br>
+        <p>It is still in development, so it may take some time to be fully set-up.</p>
+        
+    </section>
+
+
 </body>
 </html>
