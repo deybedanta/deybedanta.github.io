@@ -45,7 +45,7 @@ function quickAnimations() {
             'opacity' : '0'
         });
 
-        if (title.innerHTML != 'Bedanta Dey') {
+        if (title.innerHTML != 'shadow_aya') {
             title.innerHTML = 'Bedanta Dey'.slice(0, title.innerHTML.length + 1);
         }
         if (folderOpened) {
