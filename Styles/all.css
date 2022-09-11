@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+Mono");
-@import url("https://fonts.googleapis.com/css?family=DM+Sans");
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 
 * {
@@ -8,7 +7,7 @@
     font-family: "Josefin Sans";
 }
 body {
-    background-color: #151515;
+    background-color: #102347;
     background-position: center;
     color: white;
 }
@@ -49,7 +48,7 @@ a:active {
     padding: 15px 0;
     margin: 10px 50vw;
 
-    background-color: #252525;
+    background-color: #081329;
     border-radius: 10px;
     text-align: center;
 
