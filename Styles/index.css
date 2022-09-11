@@ -98,11 +98,10 @@
 
 
 .content-box {
-    /*animation-name: content-in;
+    animation-name: content-in;
     animation-duration: 0.5s;
     animation-timing-function:ease-out;
-    animation-fill-mode:forwards;*/
-
+    animation-fill-mode:forwards;
     background-color: #eeeeee;
     color: black;
     width: 600px;
