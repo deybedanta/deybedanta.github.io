@@ -57,6 +57,7 @@ a:active {
     align-items: center;
     gap: 10px 0;
 }
+
 #cookies-popup button {
     background-color: white;
     color:#151515;
@@ -69,12 +70,12 @@ a:active {
     margin: 0 20px;
 }
 
-#notifications-top {
+/*#notifications-top {
     width: 100%;
 }
 #notifications-top p {
     font-family: "DM Sans";
-    /*color: black;*/
+    color: black;
     width: 50vw;
 }
 
@@ -91,7 +92,7 @@ a:active {
 }
 #notifications-top > div {
     padding: 10px 0;
-    /*background-color: rgb(237, 240, 81);*/
+    background-color: rgb(237, 240, 81);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -109,7 +110,7 @@ a:active {
     animation-name: notification-close;
     animation-duration: 0.3s;
     transform-origin: top;
-}
+}*/
 
 /*button {
     font-size: 15px;
