@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans";
+}
+body {
+    background-color: #a5b6d6;
+    background-position: center;
+    color: white;
+}
+a:link {
+    text-decoration: none;
+}
+  
+a:hover {
+    border-bottom: 1px dotted;
+}
+  
+a:active {
+    border-bottom: 1px dotted;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #202020; 
+} 
+
+::-webkit-scrollbar-thumb {
+    background: #505050; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #707070; 
+}
+
+#cookies-popup {
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+    height: auto; width: 50vw;
+    transform: translateX(-50%);
+    padding: 15px 0;
+    margin: 10px 50vw;
+
+    background-color: #7d8eb1;
+    border-radius: 10px;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px 0;
+}
+
+#cookies-popup button {
+    background-color: white;
+    color:rgb(113, 145, 160);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 50px;
+    margin: 0 20px;
+}
+#cookies-popup p {
+    margin: 0 20px;
+}
+
+/*#notifications-top {
+    width: 100%;
+}
+#notifications-top p {
+    font-family: "DM Sans";
+    color: black;
+    width: 50vw;
+}
+
+#notifications-top > div > div > p:first-of-type {
+    font-weight: 900;
+}
+#notifications-top > div > div > p:nth-of-type(2) {
+    font-weight: 100;
+}
+
+#notifications-top svg {
+    width: 25px;
+    height: 25px;
+}
+#notifications-top > div {
+    padding: 10px 0;
+    background-color: rgb(237, 240, 81);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#notifications-top > div > * {
+    margin: 0 10px;
+}
+
+@keyframes notification-close {
+    0% {opacity: 1;transform: none;}
+    100% {opacity: 0;transform:scaleY(0.3);}
+}
+
+.notification-close-class {
+    animation-name: notification-close;
+    animation-duration: 0.3s;
+    transform-origin: top;
+}*/
+
+/*button {
+    font-size: 15px;
+    transition: 0.3s;
+    margin: 5px 0 0 10px;
+    padding: 0 30px 0 30px;
+    height: 30px;
+    color: black;
+    border-width: 0;
+    -webkit-box-shadow: 0px 0px 30px 13px #000000; 
+    box-shadow: 0px 0px 30px 10px #000000;
+}
+button:hover {
+    box-shadow: 0px 0px 60px 13px #000000;
+    height: 40px;
+    padding: 0 40px 0 40px;
+    margin: 0 0 0 0;
+}*/
