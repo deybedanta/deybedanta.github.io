@@ -39,7 +39,7 @@ a:active {
     background: #707070; 
 }
 
-#cookies-popup {
+/*#cookies-popup {
     z-index: 999;
     position: fixed;
     bottom: 0;
@@ -70,7 +70,7 @@ a:active {
     margin: 0 20px;
 }
 
-/*#notifications-top {
+#notifications-top {
     width: 100%;
 }
 #notifications-top p {
