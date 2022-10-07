@@ -12,6 +12,7 @@ This website is a personal website/profile page for Bedanta Dey.
 ## Authors
 
 - [@deybedanta](https://www.github.com/deybedanta)
+- [@shadow_aya](https://shadowaya.github.io)
 
 
 ## FAQ
