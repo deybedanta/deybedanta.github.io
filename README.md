@@ -1,7 +1,3 @@
-
-![Logo](https://deybedanta.github.io/Media/logo.png)
-
-
 # Bedanta Dey's Personal Website
 
 This website is a personal website/profile page for Bedanta Dey.
