@@ -9,14 +9,14 @@
     margin: 0 0 50vh 20.5%;
     height: 46px;
 
-    -webkit-box-shadow: 0px 0px 31px 21px #a5b6d6; 
-    box-shadow: 0px 0px 31px 21px #a5b6d6;
-    background-color: #a5b6d6;
+    -webkit-box-shadow: 0px 0px 31px 21px #102347; 
+    box-shadow: 0px 0px 31px 21px #102347;
+    background-color: #102347;
 }
 #title-col {
     width: 100%;
     height: 46vh;
-    background-color: #a5b6d6;
+    background-color: #102347;
 }
 
 #title h1 {
@@ -62,7 +62,7 @@
     bottom: -100px;left: 50%;
     transform: translateX(-50%);
 
-    background-color: #9a9fa8;
+    background-color: #0c1d3b;
     -webkit-clip-path: polygon(60% 20%, 80% 0, 100% 0, 100% 100%, 0 100%, 0 20%);
     clip-path: polygon(60% 20%, 80% 0, 100% 0, 100% 100%, 0 100%, 0 20%);
 
@@ -80,7 +80,7 @@
     bottom: -100px;left: 50%;
     transform: translateX(-50%);
 
-    background-color: #788091;
+    background-color: #081329;
     -webkit-clip-path: polygon(29% 0, 53% 23%, 100% 23%, 100% 100%, 0 100%, 0 0);
     clip-path: polygon(20% 0, 40% 15%, 100% 15%, 100% 100%, 0 100%, 0 0);
 }
@@ -92,9 +92,9 @@
     width: 100%;
     height: 0px;
 
-    background-color: #a5b6d6;
-    -webkit-box-shadow: 0px 11px 42px 37px #a5b6d6; 
-    box-shadow: 0px 11px 42px 37px #a5b6d6;
+    background-color: #102347;
+    -webkit-box-shadow: 0px 11px 42px 37px #102347; 
+    box-shadow: 0px 11px 42px 37px #102347;
 }
 
 
@@ -107,7 +107,7 @@
     background-color: #eeeeee;
     color: black;
     width: 600px;
-    height: 1330px;
+    height: 1310px;
     margin: 30px 0 0 50%;
     transform: translateX(-50%);
     overflow: hidden;
